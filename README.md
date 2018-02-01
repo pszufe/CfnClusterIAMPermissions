@@ -7,7 +7,7 @@ This AWS Cloud Formation script creates
 - AWS IAM Security settings for a CfnCluster node (this settings can be passed by the management instance)
 - an S3 bucket along with relevant permission that can be used to store CfnCluster computations 
 
-[click this link to launch the script](https://us-east-2.console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/create/review?templateURL=https://raw.githubusercontent.com/pszufe/CfnClusterIAMPermissions/master/CfnCluster.json&stackName=CfnCluster)
+[click this link to launch the script](https://us-east-2.console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/create/review?templateURL=https://s3.us-east-2.amazonaws.com/szufel-public/CfnCluster.json&stackName=CfnCluster)
 The link will only work while being logged-in to your AWS account. Select the checkbox *I acknowledge that AWS CloudFormation might create IAM resources.*, click *Create*, wait 4 minutes and you are done.
 
 
